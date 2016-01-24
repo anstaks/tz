@@ -12,6 +12,7 @@ Things you may want to cover:
 ```ln -s public public_html```
 
 
+* Add database.yml
 * Add gem 'therubyracer', platforms: :ruby
 * Bundle install
 
