@@ -5,7 +5,9 @@ application up and running.
 
 Things you may want to cover:
 
-* Ruby version
+* Clone repository and enter it
+```ln -s ~/.gem```
+```ln -s public public_html```
 
 * System dependencies
 
