@@ -11,6 +11,16 @@
 // about supported directives.
 //
 //= require jquery
-//= require jquery_ujs
-//= require turbolinks
-//= require_tree .
+//= require angular
+//= require bootstrap
+// require jquery_ujs
+// require turbolinks
+// require_tree .
+
+var app = angular.module('app', []);
+
+app.controller('AppController', function($scope){
+    var vm = this;
+
+    vm.hello = "123"
+});
